@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-
+//ici
 Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('/','DashboardController');
 Route::resource('/clients','ClientController');
