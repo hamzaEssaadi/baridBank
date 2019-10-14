@@ -54,7 +54,7 @@
                         <h3>Menu</h3>
                         <ul class="nav side-menu">
 
-                            <li {{\Illuminate\Support\Facades\Route::getFacadeRoot()->current()->uri()=='/'?'class=current-page':''}} ><a href="{{route('index')}}"><i class="fa fa-dashboard"></i>Tableau de bord</a></li>
+                            <li {{\Illuminate\Support\Facades\Route::getFacadeRoot()->current()->uri()=='/'?'class=current-page':''}} ><a href="{{route('dashboard.index')}}"><i class="fa fa-dashboard"></i>Tableau de bord</a></li>
                             <li><a href="{{route('clients.index')}}"><i class="fa fa-users"></i>Clients</a></li>
                         </ul>
                     </div>
